@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "lua-language-server": {
+      "type": "stdio",
+      "command": "/home/jrt/Documents/ai/mcp-language-server/mcp-language-server",
+      "args": [
+        "--workspace",
+        "/home/jrt/.config/nvim",
+        "--lsp",
+        "/home/jrt/.local/share/nvim/mason/bin/lua-language-server"
+      ],
+      "env": {
+        "LOG_LEVEL": "DEBUG"
+      }
+    }
+  }
+}
