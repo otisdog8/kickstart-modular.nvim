@@ -2,7 +2,7 @@ return {
   'andrewferrier/debugprint.nvim',
   dependencies = {
     'echasnovski/mini.nvim', -- Needed for line highlighting
-    'nvim-telescope/telescope.nvim', -- For :Debugprint search command
+    'folke/snacks.nvim', -- For :Debugprint search command
   },
   lazy = false, -- Required to make line highlighting work before debugprint is first used
   version = '*', -- Use stable version
