@@ -6,4 +6,5 @@ return {
   { import = 'custom.plugins.ai' },
   { import = 'custom.plugins.debug' },
   { import = 'custom.plugins.git' },
+  { import = 'custom.plugins.windowing' },
 }

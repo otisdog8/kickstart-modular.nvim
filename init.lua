@@ -12,4 +12,6 @@ require 'lazy-bootstrap'
 
 require 'lazy-plugins'
 
+vim.opt.termguicolors = true
+
 vim.lsp.enable 'luals'
